@@ -17,6 +17,19 @@ section {
   max-width: 200px;
 }
 .paginate {
-  width: 3rem;
+  width: 4rem;
   padding: 5px;
+}
+.btn {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+img {
+  display: block;
+  width: 130px;
+  height: 130px;
+  max-width: 100%;
+  border-radius: 50%;
+  height: auto;
 }
