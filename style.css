@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.color {
+  background: hsl(208, 57%, 85%);
+}
+hr {
+  height: 2px;
+  background-color: blue;
+  border: none;
+  width: 150px;
+}
+
+section {
+  max-width: 200px;
+}
+.paginate {
+  width: 3rem;
+  padding: 5px;
+}
