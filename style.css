@@ -26,6 +26,12 @@ section {
   font-weight: 500;
   margin-right: 10px;
   border-radius: 20px;
+  width: 100px;
+  margin-bottom: 20px;
+}
+.btn-container .btn {
+  width: 40px;
+  border-radius: 5px;
 }
 img {
   display: block;
@@ -34,4 +40,12 @@ img {
   max-width: 100%;
   border-radius: 50%;
   height: auto;
+}
+.block {
+  display: block;
+  width: 150px;
+}
+.active {
+  background-color: darkblue;
+  transform: scale(1.1);
 }
