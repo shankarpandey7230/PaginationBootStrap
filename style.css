@@ -29,8 +29,9 @@ section {
   width: 100px;
   margin-bottom: 20px;
 }
-.btn-container .btn {
-  width: 40px;
+
+.btn-container .paginate {
+  width: 30px;
   border-radius: 5px;
 }
 img {
@@ -48,4 +49,13 @@ img {
 .active {
   background-color: darkblue;
   transform: scale(1.1);
+}
+.btn-prev,
+.btn-next {
+  margin-right: 25px;
+  border: transparent;
+  background: white;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 1rem;
 }

@@ -27,5 +27,28 @@ const setupItems = async () => {
   // console.log(pages);
 };
 
+buttonContainer.addEventListener('click', (e) => {
+  if (e.target.classList.contains('btn-container')) {
+    return;
+  }
+  if (e.target.classList.contains('btn')) {
+    // console.log(typeof e.target.dataset.index);
+    index = parseInt(e.target.dataset.index);
+  }
+  if (e.target.classList.contains('btn-next')) {
+    index++;
+    if (index > pages.length - 1) {
+      index = 0;
+    }
+  }
+  if (e.target.classList.contains('btn-prev')) {
+    index--;
+    if (index < 0) {
+      index = pages.length - 1;
+    }
+  }
+
+  setupUI();
+});
 window.addEventListener('load', setupItems);
 // the load event is fired when the whole page has loaded, including all dependent resources
