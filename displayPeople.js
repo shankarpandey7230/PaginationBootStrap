@@ -15,8 +15,8 @@ const displayPeople = (people) => {
         alt="img"
         class="img-fluid"
       />
-      <h2 class="text-center block">${login}</h2>
-    <a href="${html_url}"><button class="btn btn-primary mx-auto mt-5"">View Profile</button></a>
+      <h2 class="text-center block ">${login}</h2>
+    <a href="${html_url}"><button class="btn btn-primary mx-auto mt-3"">View Profile</button></a>
     </div>
   </div>
   </div>`;
